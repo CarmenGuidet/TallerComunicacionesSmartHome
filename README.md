@@ -1,0 +1,2 @@
+Este taller es parte de la ayuda TSI-063000-2021-33, financiada por Ministerio de Asuntos Económicos y Transformación Digital y la Unión Europea-Plan de Recuperación de la UE como entidades financiadoras, en el marco del Plan de Recuperación, Transformación y Resiliencia y el Mecanismo de Recuperación y Resiliencia. 
+Puede encontrar la presentación del taller en: https://docs.google.com/presentation/d/1HnI0huQ8vJSkbmpI_M_ObRM0C5kggMCuhU1DHGN-6-I/edit?usp=sharing
