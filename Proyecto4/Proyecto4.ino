@@ -27,7 +27,7 @@ void loop() {
     else if (command == '3') {   // Si el comando es 'TEMP', leemos el sensor
       int temperatura = 0;
       int humedad = 0;
-      int resultado = dht11.readTemperatureHumidity(temperatura, humedad);
+      dht11.readTemperatureHumidity(temperatura, humedad);
       SerialBT.println("Temperatura: ");
       SerialBT.print(temperatura);
       SerialBT.print("ºC");
@@ -35,7 +35,7 @@ void loop() {
     else if (command == '4') {   // Si el comando es 'HUME', leemos el sensor
       int temperatura = 0;
       int humedad = 0;
-      int resultado = dht11.readTemperatureHumidity(temperatura, humedad);
+      dht11.readTemperatureHumidity(temperatura, humedad);
       SerialBT.println("Humedad: ");
       SerialBT.print(humedad);
       SerialBT.print("%");

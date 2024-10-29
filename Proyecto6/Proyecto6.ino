@@ -79,8 +79,9 @@ void loop(){
               output12State = "off";
               digitalWrite(output12, LOW);
             }
-            
-            int temperature = dht11.read().temperature;
+            int temperatura =0;
+            int humedad = 0;
+            dht11.readTemperatureHumidity(temperatura, humedad);
             
             // Display the HTML web page
             client.println("<!DOCTYPE html><html>");
@@ -104,7 +105,8 @@ void loop(){
             } else {
               client.println("<p><a href=\"/12/off\"><button class=\"button button2\">OFF</button></a></p>");
             } 
-            client.println("<p>Temperatura: " + String(temperature) + " °C</p>");
+            client.println("<p>Temperatura: " + String(temperatura) + " °C</p>");
+            client.println("<p>Humedad: " + String(humedad) + " %</p>");
             client.println("</body></html>");
             
             // The HTTP response ends with another blank line
